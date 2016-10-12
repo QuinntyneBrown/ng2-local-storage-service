@@ -22,6 +22,15 @@ bld/
 [Oo]bj/
 [Ll]og/
 
+prod
+
+src/**/*.js
+src/**/*.js.map
+src/demo-app/**/*.css
+src/demo-app/**/*.css.map
+
+typings
+
 # Visual Studio 2015 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
