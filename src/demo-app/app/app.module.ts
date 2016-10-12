@@ -9,8 +9,6 @@ import "./rxjs-extensions";
 
 import { AppComponent } from './app.component';
 
-import { ScheduleModule } from "./schedule";
-
 import {
     RoutingModule,
     routedComponents
@@ -27,7 +25,6 @@ const providers = [
 
 @NgModule({
     imports: [
-        ScheduleModule,
 
         RoutingModule,
 

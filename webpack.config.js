@@ -5,7 +5,7 @@ module.exports = {
         'app': './src/demo-app/main.ts'
     },
     output: {
-        path: "./prod",
+        path: "./src/demo-app/",
         filename: '[name].js',
         chunkFilename: '[id].chunk.js'
     },

@@ -17,7 +17,7 @@
 
     private _items = null;
 
-    public get items() {
+    public get items() {        
         if (this._items === null) {
             var storageItems = localStorage.getItem(LocalStorageService.id);
             if (storageItems === "null") {
@@ -33,7 +33,7 @@
         this._items = value;
     }
 
-    public get = (options: { name: string }) => {
+    public get = (options: { name: string }) => {        
         var storageItem = null;
         for (var i = 0; i < this.items.length; i++) {
             if (options.name === this.items[i].name)
