@@ -1,6 +1,6 @@
 {
   "name": "ng2-local-storage",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "Angular 2 Local Storage",
   "module": "./index.js",
   "typings": "./index.d.ts",
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/QuinntyneBrown/ng2-local-storage-service/issues"
   },
-  "homepage": "https://github.com/QuinntyneBrown/ng2-local-storage-service#readme",
-  "peerDependencies": {
-    "@angular/core": "2.0.0"
-  }
+  "homepage": "https://github.com/QuinntyneBrown/ng2-local-storage-service#readme"
 }
